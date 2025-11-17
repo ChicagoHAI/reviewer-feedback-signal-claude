@@ -1,0 +1,10 @@
+[project]
+name = "critique-markets-research"
+version = "0.1.0"
+description = "Research on critique markets for AI discovery"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
