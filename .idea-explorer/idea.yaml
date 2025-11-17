@@ -1,0 +1,44 @@
+idea:
+  title: 'Critique Markets for Discovery: Turning Reviewer Feedback into a Resource
+    Allocation Signal'
+  domain: artificial_intelligence
+  hypothesis: "Turning reviewer feedback into a market signal that controls exploration-exploitation\
+    \ and cycle allocation will (i) increase novelty-adjusted accuracy per cycle and\
+    \ (ii) reveal a domain-dependent scaling law and saturation point earlier than\
+    \ na\xEFve linear extrapolation suggests.\n"
+  background:
+    description: "Give your AI scientist a picky reviewer who pays \u201Cattention\
+      \ tokens\u201D only for genuinely good ideas\u2014then let the AI chase what\
+      \ the reviewer rewards. We\u2019ll embed an automated reviewer and treat its\
+      \ scores as a budget signal to schedule how the agent spends cycles on reading,\
+      \ coding, or synthesis, probing the observed linear scaling of findings in Kosmos.\n"
+    papers:
+    - description: 'Lu, C., Lu, C., Lange, R. T., Foerster, J., Clune, J., & Ha, D.
+        (2024). The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery.
+        arXiv.org.'
+    - description: 'Mitchener, L., Yiu, A., Chang, B., Bourdenx, M., Nadolski, T.,
+        Sulovari, A., Baruah, S., Gold, K., & Jiang, Y. (2025). Kosmos: An AI Scientist
+        for Autonomous Discovery. Preprint.'
+    - description: 'Jin, D., Gunner, N., Carvajal Janke, N., Baruah, S., Gold, K.,
+        & Jiang, Y. (2025). Aleks: AI powered Multi Agent System for Autonomous Scientific
+        Discovery via Data-Driven Approaches in Plant Science. arXiv.org.'
+    - description: "Eger, S., Cao, Y., D\u2019Souza, J., Geiger, A., Greisinger, C.,\
+        \ Gross, S., Hou, Y., Krenn, B., Lauscher, A., Li, Y., Lin, C., Moosavi, N.,\
+        \ Zhao, W., & Miller, T. (2025). Transforming Science with Large Language\
+        \ Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content\
+        \ Generation, and Evaluation. arXiv.org."
+    - description: 'Reddy, C. K., & Shojaee, P. (2024). Towards Scientific Discovery
+        with Generative AI: Progress, Opportunities, and Challenges. AAAI Conference
+        on Artificial Intelligence.'
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+    budget: 100
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/uYHQ8qGHFuR7SMB6O575
+    idea_id: critique_markets_for_discovery_20251116_221221_8f759956
+    created_at: '2025-11-16T22:12:21.699739'
+    status: submitted
+    github_repo_name: reviewer-feedback-signal-904f
+    github_repo_url: https://github.com/ChicagoHAI/reviewer-feedback-signal-904f
